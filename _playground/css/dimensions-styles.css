@@ -1,0 +1,77 @@
+/** BOX 01 */
+.box01 {
+    background: red;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.parent01 {
+    background: white;
+    border: 1px solid black;
+}
+
+.fifty-percent01 {
+    width: 50%;
+}
+
+.one-hundred01 {
+    width: 100px;
+}
+
+.parent01 {
+    width: 250px;
+}
+
+/** BOX 02 */
+.box02 {
+    background: red;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.parent02 {
+    background: white;
+    border: 1px solid black;
+}
+
+.fifty-percent02 {
+    width: 50%;
+}
+
+.fifty-vw02 {
+    width: 50vw;
+}
+
+.twenty-five-vh02 {
+    height: 25vh;
+}
+
+.parent02 {
+    width: 100px;
+}
+
+/** BOX 03 */
+.parent03 {
+    background: white;
+    border: 1px solid black;
+}
+
+.one-rem03 {
+    font-size: 1rem;
+}
+
+.one-em03 {
+    font-size: 1em;
+}
+
+.two-rem03 {
+    font-size: 2rem;
+}
+
+.two-em03 {
+    font-size: 2em;
+}
+
+.parent03 {
+    font-size: 30px;
+}
