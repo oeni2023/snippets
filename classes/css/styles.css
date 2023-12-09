@@ -1,0 +1,14 @@
+/** CODE goes here */
+
+body {
+    font-family: sans-serif;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-alert {
+    background-color: #ffdcdc;
+}

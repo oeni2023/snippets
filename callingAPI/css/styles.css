@@ -1,0 +1,23 @@
+/** TOPIC of SNIPPET */
+
+/** CODE goes here */
+:root {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 50%;
+}
+header {
+    background-color: #d28012;
+}
+
+main {
+    background-color: #93b6b0;
+}
+
+footer {
+    background-color: goldenrod;
+    height: 50px;
+
+}
+

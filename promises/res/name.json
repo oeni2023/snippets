@@ -1,0 +1,21 @@
+{"runner" : [
+{
+	"name" : "Oesterling",
+	"firstname" : "Nils",
+	"year of birth" : "1971",
+	"km per year" : "1890",
+	"pace Marathon" : 4.5,
+	"pace Longjogg" : 5.5,
+	"remark" : "guide"
+},
+{
+	"name" : "Cavin",
+	"firstname" : "Chantal",
+	"year of birth" : "1975",
+	"km per year" : "2500",
+	"pace Marathon" : 4.5,
+	"pace Longjogg" : 5.5,
+	"remark" : "athlete"
+}
+]
+}

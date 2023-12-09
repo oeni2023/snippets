@@ -1,0 +1,23 @@
+/** TOPIC of SNIPPET */
+
+/** CODE goes here */
+.flex {
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    background-color: #dcf1a0;
+}
+
+.div-f1 {
+    background-color: #d28012;
+    width: 50%;
+}
+
+.div-f2 {
+    background-color: #93b6b0;
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+}
