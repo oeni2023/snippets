@@ -13,13 +13,11 @@ btnClick.addEventListener('click',() => {
     console.log('Hello!!!')
 
     /* Instantise a new HtmlGenerator Object */
-    const myTile = new HtmlGenerator(elementType, elememtText);
+    const myTile = new HtmlGenerator(elementType);
 
     myTile.addClass(elementClass);
     myTile.addClass('result');
-
     myTile.addSpan('NewAttribut');
-
     myTile.setBgColor('#1234');
 
     myTile.setBorderStyle("blue solid 3px");
@@ -37,7 +35,10 @@ btnClick.addEventListener('click',() => {
 class HtmlGenerator {
     constructor(tagName, textContent) {
         this.element = document.createElement(tagName);
-        this.element.textContent = textContent || '';
+        this.element.textContent = textContent;
+        this.element.elmName = "test Name";
+        this.element.elmColor = "test Color";
+        this.element.elmNumbers = "test Numbers";
     }
 
     addClass(className) {
@@ -46,7 +47,7 @@ class HtmlGenerator {
 
     addSpan(nameAttributeValue) {
         const mySpan = document.createElement('span');
-        mySpan.innerText = 'Hallo span'
+        mySpan.innerText = this.element.elmName;
         mySpan.setAttribute('name', nameAttributeValue)
         this.element.appendChild(mySpan);
     }
