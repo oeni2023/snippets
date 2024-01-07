@@ -5,31 +5,47 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Topic name - snippet</title>
+    <title>Grid</title>
     <link rel="stylesheet" href="css/grid_-styles.css">
 </head>
 <body>
 
-<!-- TOPIC of SNIPPET -->
 
-<div class="flex">
-    <div class="div-f1">
-        div f1
+<div class="main-wrapper">
+    <div class="width">Width</div>
+    <div class="width-500px">
+        <div>width: 500px = 100%</div>
     </div>
-    <div class="div-f2">
-        div f2
+    <div class="width-50%">
+        <div>width: 50% = 250px</div>
+    </div>
+    <div class="max-width-500px">
+        <div>max-width: 50opx</div>
+    </div>
+
+    <div class="flex-box">Flex box</div>
+    <div class="flex-container">
+        <div class="div-f1">div f1</div>
+        <div class="div-f2">div f2</div>
+    </div>
+
+    <div class="grid">Grid
+        <strong>Grid Container:</strong> The element on which display: grid is applied. It’s the direct parent of all the grid items. In this example container is the grid container.
+        <!-- Grid Container: The element on which display: grid is applied. It’s the direct parent of all the grid items. In this example container is the grid container. -->
+        <div class="grid-container">
+            <!-- Grid Item: The children (i.e. direct descendants) of the grid container. Here the item elements are grid items, but sub-item isn’t.-->
+            <div class="grid-item grid-item-1"><strong>1) Grid Item:</strong> The children (i.e. direct descendants) of the grid container.
+                <p class="sub-item">Sub-Item: Here the item elements are grid items, but sub-item isn’t.</p>
+            </div>
+            <div class="grid-item grid-item-2"><strong>2) Grid Line:</strong> The dividing lines that make up the structure of the grid. They can be either vertical (“column grid lines”) or horizontal (“row grid lines”) and reside on either side of a row or column. Here the yellow line is an example of a column grid line.</div>
+            <div class="grid-item grid-item-3"><strong>3) rid Cell:</strong> The space between two adjacent row and two adjacent column grid lines. It’s a single “unit” of the grid. Here’s the grid cell between row grid lines 1 and 2, and column grid lines 2 and 3.</div>
+            <div class="grid-item grid-item-4"><strong>4) Grid Track:</strong> The space between two adjacent grid lines. You can think of them as the columns or rows of the grid. Here’s the grid track between the second and third-row grid lines.</div>
+            <div class="grid-item grid-item-5"><strong>5) Grid Area:</strong> The total space surrounded by four grid lines. A grid area may be composed of any number of grid cells. Here’s the grid area between row grid lines 1 and 3, and column grid lines 1 and 3.</div>
+        </div>
     </div>
 </div>
 
-<div class="grid">
-    <div class="div-g1">
-        div g1
-    </div>
-    <div class="div-g2">
-        div g2
-    </div>
-</div>
-</div>
+
 <!-- CODE goes here -->
 
 

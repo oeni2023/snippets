@@ -1,23 +1,80 @@
 /** TOPIC of SNIPPET */
 
 /** CODE goes here */
-.flex {
+.main-wrapper {
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.width-500px {
+    width: 500px;
+    background-color: #D9D9D97A;
+    margin: 10px;
+    padding: 10px;
+}
+
+.width-50\% {
+    width: 50%;
+    background-color: #8181817A;
+    margin: 10px;
+    padding: 10px;
+}
+
+.max-width-50opx {
+    max-width: 500px;
+    background-color: #7E7E7EFF;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.flex-container {
     display: flex;
     flex-direction: row;
-    max-width: 70%;
+    flex-wrap: wrap;
     background-color: #dcf1a0;
+    margin: 10px;
 }
 
 .div-f1 {
     background-color: #d28012;
-    width: 50%;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    /*flex-grow: 1;*/
 }
 
 .div-f2 {
     background-color: #93b6b0;
-    width: 50%;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    /*flex-grow: 1;*/
 }
 
 .grid {
+    background-color: #93b6b0;
+    margin: 10px;
+    padding: 10px;
+}
+.grid-container {
+    /*Defines the element as a grid container and establishes a new grid formatting context for its contents.*/
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: cadetblue;
+    margin: inherit;
+    padding: inherit;
+}
+
+.grid-item {
+    background-color: #c9d992;
+    margin: inherit;
+    padding: inherit;
+}
+
+.sub-item {
+    background-color: #93b6b0;
+    margin: inherit;
+    padding: inherit;
 }
